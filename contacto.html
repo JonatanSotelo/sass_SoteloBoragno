@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./img/logoLucas.png">
+    <title>Closet Alegre</title>
+    <script src="https://kit.fontawesome.com/d597332fc7.js" crossorigin="anonymous"></script>
+    <!-- Agregamos la linea 10 para poder ver los iconos de las redes sociales en el footer -->
+</head>
+
+<body>
+    <header>
+        <a href="closetlagre.com.ar" class="logo">
+            <img src="img/logoLucas.png" alt="Logo de Closet Alegre">
+            <h2 class="nombre_titulo">Closet Alegre</h2>
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <ol class="cierreLista">
+                    <li>Blusas</li>
+                    <li>Sweaters</li>
+                    <li>Pantalones</li>
+                    <li>Camisas</li>
+                    <li>Remeras</li>
+                    <li>Vestidos</li>
+                    <li>Polleras</li>
+                    <li>Shorts</li>
+                    <li>Enteritos</li>
+                    <li>Monos</li>
+                    <li>Chalecos</li>
+                    <li>Sacos</li>
+                    <li>Buzos</li>
+                    <li>Abrigos</li>
+                    <li>Camisacos</li>
+                </ol>
+                <li><a href="./temporada.html">Temporada</a></li>
+                <li><a href="./promociones.html">Promociones</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <form>
+            <div>
+            <!-- en el label al ponerle el atributo for= y el id= lo estoy guardando para una base de datos o css y NAME es el nombre que aparece en la barra del navegador -->
+            <label for="nombre" class="nombre">Nombre</label><br>
+            <input type="text" placeholder="Nombre/s">
+            <br>
+            <label for="apellido" class="apellido">Apellido</label><br>
+            <input type="text" placeholder="Apelido/s">
+            <br>
+            <label for="email" class="email">Correo</label><br>
+            <input type="email" placeholder="nombre@email.com">
+            <br>
+            <div>
+            <p>Estado Civil</p>
+            <select name="Estado_Civil" id="">
+                <option value="" selected> Selecciona</option>
+                <option value="s">Soltero</option>
+                <option value="c">Casado</option>
+            </select>
+            </div>
+            <label>
+                <input type="checkbox">
+                <!-- span es una etiqueta en la que puedo incluir texto y me queda en la misma linea del checkbox , es una etiqueta en blocke -->
+                <span>Suscribirme al newsletter</span>
+            </label>
+            <br>
+            <textarea name="Comentarios" id="" cols="30" rows="10" placeholder="Comentarios"></textarea>
+            <br>
+            <input type="reset" value="Limpiar Formulario">
+            <input type="submit" value="Enviar Formulario">
+        </div>
+        </form>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>Seguimos en Nuestras Redes Sociales</p>
+            <!-- Agregamos el icono de las redes sociales con un estilo cursiva -->
+            <ul class="redes">
+                <li><a href="facebook.com"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="instagram.com"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="twitter.com"><i class="fa fa-twitter"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer_bottom">
+            <p>© Closet Alegre Indumentaria by <span>Tiberius.INC</span></p>
+        </div>
+    </footer>
+</body>
+
+</html>

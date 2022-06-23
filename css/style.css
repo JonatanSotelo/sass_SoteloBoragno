@@ -1,0 +1,156 @@
+/* Selector Compuesto*/
+/* Le damos flexibilidad al cuadro */
+/*---------Aca tenemos el MAIN----------*/
+/*---------------Termina el BODY empieza el FOOTER------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: sans-serif;
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+header {
+  display: flex;
+  min-height: 70px;
+  background-color: antiquewhite;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px; }
+
+.logo {
+  display: flex;
+  align-items: center; }
+  .logo img {
+    height: 50px;
+    margin-right: 10px; }
+
+nav a {
+  font-weight: 600px;
+  padding-right: 10px; }
+  nav a:hover {
+    color: wheat; }
+
+nav ul {
+  list-style-type: none; }
+  nav ul li {
+    background-color: #F6E3CA;
+    float: left;
+    margin-right: 10px;
+    padding: 0 4px; }
+
+.cierreLista {
+  display: none; }
+
+.grid-container {
+  display: grid;
+  grid-area: 100%;
+  grid-gap: 30px;
+  grid-auto-columns: auto;
+  grid-auto-rows: auto;
+  grid-template-columns: auto;
+  padding: 10px;
+  background-color: bisque; }
+
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 16px;
+  text-align: center;
+  color: rebeccapurple; }
+
+.contenedorCentral {
+  display: inline;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+  font-family: 'Times New Roman', Times, serif; }
+
+.tabla {
+  background-color: bisque;
+  height: 20vh;
+  margin: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+form {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+.temporada {
+  display: block;
+  text-align: center;
+  line-height: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  overflow: visible; }
+
+.parrafo {
+  display: block;
+  overflow: visible;
+  width: 700px;
+  margin: auto; }
+
+footer {
+  background-color: #5e1e07;
+  height: auto;
+  width: 100vw;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-top: 40px;
+  color: #f14e6f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; }
+
+.footer p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px; }
+
+.redes {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0; }
+  .redes li {
+    margin: 0 10px; }
+  .redes a {
+    text-decoration: none;
+    color: teal; }
+    .redes a i {
+      font-size: 1.1rem;
+      transition: color .4s ease; }
+    .redes a:hover i {
+      color: chartreuse; }
+
+.footer_bottom {
+  background: #000;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center; }
+  .footer_bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize; }
+  .footer_bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200; }
+
+@media (max-width: 700px) {
+  header {
+    flex-direction: column; }
+  nav {
+    padding: 10px 0px; } }
