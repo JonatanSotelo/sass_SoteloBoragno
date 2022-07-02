@@ -1,0 +1,8 @@
+1:Pusimos Titulos independientes para cada pagina
+2:Verificamos los H1
+3:En pimera instacia agregamos los dos metas para cada pagina el keywords y de description
+4:Creamos la carpeta pages y enviamos todas las paginas ahi menos el index
+5:Reindexamos todo por el cambio de carpeta
+6:hicimos el linkeo por ID solamente  en la pagina temporda
+7:Adjuntamos el siteMap
+8: creamos el archivo de docmentacion
