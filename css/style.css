@@ -55,14 +55,20 @@ nav ul {
   grid-auto-rows: auto;
   grid-template-columns: auto;
   padding: 10px;
-  background-color: bisque; }
+  background-color: bisque; 
+  
+}
 
 .grid-item {
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
   font-size: 16px;
   text-align: center;
-  color: rebeccapurple; }
+  color: rebeccapurple;
+  width: 33%;
+ 
+  
+}
 
 .contenedorCentral {
   display: inline;
